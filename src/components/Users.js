@@ -9,6 +9,7 @@ class Users extends Component {
     return (
       <div>
         <ul>
+          { this.props.users.length}
           { userList }
         </ul>
       </div>
